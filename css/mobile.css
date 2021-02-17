@@ -1,0 +1,178 @@
+
+/* Index Page */
+
+/* Navigation */
+#main-navbar .navbar-container{
+    flex-direction: column;
+}
+
+#main-navbar .navbar-container ul li a{
+    padding: 0.5rem 0.75rem;
+    font-size: 0.75rem;
+}
+
+#main-navbar .navbar-container ul li .current{
+    border-left: none;
+    border-bottom: 3px #555 solid;
+}
+
+/* Showcase */
+#showcase .showcase-container h1{
+    font-size: 3rem;
+}
+
+/* Home Icons */
+#home-icons .icon-content{
+    flex-direction: column;
+}
+
+/* Home Heading */
+#home-heading .home-heading-container .home-heading-content p{
+    display: none;
+}
+
+/* Info */
+#info .info-container{
+    grid-template-columns: 1fr;
+}
+
+#info .info-container .info-content{
+    text-align: center;
+}
+
+/* Video Play */
+
+
+/* Photo Gallery */
+#gallery .gallery-content .photo-grid{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+#gallery .gallery-content .photo-grid img{
+    padding: 0 2rem;
+}
+
+/* Newsletter */
+#newsletter .newsletter-content{
+    padding: 0 1rem;
+}
+
+#newsletter .newsletter-content .form-group input{
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+#newsletter .newsletter-content .form-group{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+/* About Page */
+
+/* About Us */
+#about-us{
+    padding: 2rem 2rem;
+}
+
+/* What We Do */
+#what-we-do{
+    padding: 2rem 1rem;
+}
+
+#what-we-do .what-we-do-container{
+    grid-template-columns: 1fr;
+}
+
+#what-we-do .what-we-do-container img{
+    display: none;
+}
+
+/* Icon */
+#icon{
+    padding: 2.5rem 2rem;
+}
+
+#icon .icon-container{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+/* Testimonials */
+#testimonials{
+    padding: 1.5rem 1rem;
+}
+
+/* Services Page */
+
+/* Our Service */
+#our-services{
+    padding: 2rem 1rem;
+}
+
+/* Service Plans */
+#service-plan{
+    padding: 2.5rem 1rem;
+}
+
+#service-plan .service-plan-container{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+/* FAQ */
+#faq{
+    padding: 2.5rem 2rem;
+}
+
+#faq .faq-container .faq-content{
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0rem;
+}
+
+#faq .faq-container .faq-content > *:first-child > *:last-child h3{
+    border-bottom: 0rem;
+}
+
+/* Blog Page */
+
+/* Read Our Blog */
+#read-our-blog{
+    padding: 2rem 1rem;
+}
+
+#blogs .blogs-container{
+    grid-template-columns: 1fr;
+}
+
+/* Contact Page */
+
+/* Contact Us */
+#contact-us-blog{
+    padding: 2rem 1rem;
+}
+
+#contact .contact-container{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+#contact .contact-container .contact-form-container{
+    grid-column: 1/ span 1;
+}
+
+#contact .contact-container .contact-form-container .contact-form-content .contact-form{
+    grid-template-columns: 1fr;
+}
+
+#contact .contact-container .contact-form-container .contact-form-content .contact-form textarea,
+#contact .contact-container .contact-form-container .contact-form-content .contact-form .btn{
+    grid-column: 1 / span 1;
+}
+
+/* Our Staff */
+#our-staff .our-staff-container .staff{
+    grid-template-columns: 1fr;
+}
+
+#our-staff .our-staff-container .staff .people{
+    margin-bottom: 1.5rem;
+}
